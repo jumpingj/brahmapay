@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-# ruby 2.0.0 required for Heroku deployment, 1.9.3 works locally
-ruby '2.0.0'
+# ruby 1.9.3 required for Heroku deployment, 1.9.3 works locally
+ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
@@ -44,3 +44,4 @@ end
 gem 'balanced'
 
 gem 'quiet_assets', :group => :development
+gem 'devise'
